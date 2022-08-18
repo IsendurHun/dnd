@@ -60,9 +60,9 @@
         "formula": ""
       },
       "hp": {
-        "value": 38,
+        "value": 41,
         "min": 0,
-        "max": 51,
+        "max": 64,
         "temp": null,
         "tempmax": null
       },
@@ -318,12 +318,12 @@
     },
     "spells": {
       "spell1": {
-        "value": 4,
+        "value": 1,
         "override": null,
         "max": 3
       },
       "spell2": {
-        "value": 2,
+        "value": 0,
         "override": null,
         "max": 2
       },
@@ -7458,15 +7458,11 @@
             [
               "1d8+2+@mod",
               "radiant"
-            ],
-            [
-              "1d8",
-              "radiant"
             ]
           ],
           "versatile": "1d10+2+@mod"
         },
-        "formula": "",
+        "formula": "2d8+2+@mod[radiant]",
         "save": {
           "ability": "",
           "dc": 0,
@@ -7745,6 +7741,112 @@
           "hash": "dueling_phb"
         }
       }
+    },
+    {
+      "_id": "iVtEWHiH6Pec9GbE",
+      "name": "Order of the Silver Dragon +1 Shield",
+      "type": "equipment",
+      "img": "modules/plutonium/media/icon/checked-shield.svg",
+      "data": {
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--2\">\n<p>While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.</p>\n<p>The shield is emblazoned with a stylized silver dragon that is the emblem of the Order of the Silver Dragon (see <a href=\"https://5etools-mirror-1.github.io/adventure.html#CoS,7,the%20order%20of%20the%20silver%20dragon,0\"><em>Curse of Strahd</em>, chapter 7</a>).&nbsp;</p>\n<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 1. You can benefit from only one shield at a time.</p>\n</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "CoS",
+        "quantity": 1,
+        "weight": 6,
+        "price": null,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "rare",
+        "identified": true,
+        "activation": {
+          "type": "bonus",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "str",
+          "dc": null,
+          "scaling": "str"
+        },
+        "armor": {
+          "value": 3,
+          "type": "shield",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "baseItem": "",
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "proficient": true,
+        "attuned": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "jJlN84NZ0wPCNPrN": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "CoS",
+          "hash": "order%20of%20the%20silver%20dragon%20%2b2%20shield_cos"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        }
+      }
     }
   ],
   "effects": [
@@ -7826,7 +7928,7 @@
       "icon": "modules/plutonium/media/icon/spell/xge-ice-knife.webp",
       "label": "Channel Divinity: Frost's Bite",
       "origin": "Actor.iLk5dCor6mFOLWmB.Item.L2ciZN5KPQVSe8UH",
-      "tint": "",
+      "tint": null,
       "transfer": false,
       "flags": {
         "core": {
@@ -7861,7 +7963,7 @@
       "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
       "label": "Fighting Style: Dueling",
       "origin": "Actor.iLk5dCor6mFOLWmB.Item.dCfxXqKYITpSdEo0",
-      "tint": "",
+      "tint": null,
       "transfer": false,
       "flags": {
         "dae": {
