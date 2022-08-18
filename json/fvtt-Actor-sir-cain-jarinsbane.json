@@ -3523,7 +3523,7 @@
     },
     {
       "_id": "mI8nlAHTN8la3aAP",
-      "name": "Divine Smite(GWF)",
+      "name": "Divine Smite",
       "type": "spell",
       "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
       "data": {
@@ -3574,11 +3574,11 @@
         "damage": {
           "parts": [
             [
-              "2d8r<3",
+              "2d8",
               "radiant"
             ]
           ],
-          "versatile": "3d8r<3"
+          "versatile": "3d8"
         },
         "formula": "",
         "save": {
@@ -3608,7 +3608,7 @@
         },
         "scaling": {
           "mode": "level",
-          "formula": "1d8r<3"
+          "formula": "1d8r"
         }
       },
       "effects": [],
@@ -4299,389 +4299,6 @@
         "jJlN84NZ0wPCNPrN": 3
       },
       "flags": {}
-    },
-    {
-      "_id": "EpHlJf2Y5fBnYp2W",
-      "name": "Blessed Warrior",
-      "type": "feat",
-      "img": "modules/plutonium/media/icon/skills.svg",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>You learn two cantrips of your choice from the <a href=\"https://5etools-mirror-1.github.io/spells.html#blankhash,flstlevel:0=1,flstclass:cleric=1\">cleric spell list</a>. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.</p><div class=\"rd__spc-inline-post\"></div></div>\n\t\t\t</div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "TCE",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 0,
-          "long": 0,
-          "units": null
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": null,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
-        "recharge": {
-          "value": 0,
-          "charged": true
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 100000,
-      "permission": {
-        "default": 0,
-        "jJlN84NZ0wPCNPrN": 3
-      },
-      "flags": {
-        "srd5e": {
-          "page": "optionalfeatures.html",
-          "source": "TCE",
-          "hash": "blessed%20warrior_tce"
-        }
-      }
-    },
-    {
-      "_id": "HeR8uEJoHhNdyx5s",
-      "name": "Sacred Flame",
-      "type": "spell",
-      "img": "modules/plutonium/media/icon/spell/phb-sacred-flame.webp",
-      "data": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take [[/r 1d8]] radiant damage. The target gains no benefit from cover for this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>The spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/r 2d8]]), 11th level ([[/r 3d8]]), and 17th level ([[/r 4d8]]).</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": 1,
-          "width": null,
-          "units": "",
-          "type": "creature"
-        },
-        "range": {
-          "value": 60,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": "0",
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "cha",
-        "actionType": "save",
-        "attackBonus": null,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [
-            [
-              "1d8",
-              "radiant"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "dex",
-          "dc": null,
-          "scaling": "cha"
-        },
-        "level": 0,
-        "school": "evo",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "always",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "cantrip",
-          "formula": "1d8"
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2800000,
-      "permission": {
-        "default": 0,
-        "jJlN84NZ0wPCNPrN": 3
-      },
-      "flags": {
-        "srd5e": {
-          "page": "spells.html",
-          "source": "PHB",
-          "hash": "sacred%20flame_phb",
-          "propDroppable": "spell"
-        },
-        "midi-qol": {
-          "effectActivation": false
-        },
-        "midiProperties": {
-          "nodam": false,
-          "halfdam": false,
-          "fulldam": false,
-          "rollOther": false,
-          "critOther": false,
-          "concentration": false
-        }
-      }
-    },
-    {
-      "_id": "7YxPPge98kGy92I1",
-      "name": "Thaumaturgy",
-      "type": "spell",
-      "img": "modules/plutonium/media/icon/spell/phb-thaumaturgy.webp",
-      "data": {
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">Your voice booms up to three times as loud as normal for 1 minute.</li><li class=\"rd__li \">You cause flames to flicker, brighten, dim, or change color for 1 minute.</li><li class=\"rd__li \">You cause harmless tremors in the ground for 1 minute.</li><li class=\"rd__li \">You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</li><li class=\"rd__li \">You instantaneously cause an unlocked door or window to fly open or slam shut.</li><li class=\"rd__li \">You alter the appearance of your eyes for 1 minute.</li></ul><p>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 1,
-          "units": "minute"
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 30,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "cha",
-        "actionType": "util",
-        "attackBonus": null,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "cha"
-        },
-        "level": 0,
-        "school": "trs",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": false,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "always",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 2900000,
-      "permission": {
-        "default": 0,
-        "jJlN84NZ0wPCNPrN": 3
-      },
-      "flags": {
-        "srd5e": {
-          "page": "spells.html",
-          "source": "PHB",
-          "hash": "thaumaturgy_phb",
-          "propDroppable": "spell"
-        }
-      }
-    },
-    {
-      "_id": "zonl3JSS5CRx90Ua",
-      "name": "Fighting Initiate: Great Weapon Fighting",
-      "type": "feat",
-      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
-      "data": {
-        "description": {
-          "value": "<div>\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><div class=\"rd__spc-inline-post\"></div></div>\n\t\t\t</div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": "",
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "undefined undefined",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "permission": {
-        "default": 0,
-        "jJlN84NZ0wPCNPrN": 3
-      },
-      "flags": {
-        "srd5e": {
-          "page": "optionalfeatures.html",
-          "source": "PHB",
-          "hash": "great%20weapon%20fighting_phb"
-        }
-      }
     },
     {
       "_id": "cYlhq1zKm3M4lZGC",
@@ -7688,141 +7305,6 @@
       }
     },
     {
-      "_id": "C9txg7hvp8PZeQ3U",
-      "name": "Sunsword",
-      "type": "weapon",
-      "img": "https://5etools-mirror-1.github.io/img/items/CoS/Sunsword.png",
-      "data": {
-        "description": {
-          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>The <i>Sunsword</i> is a unique blade once possessed by Strahd's brother, Sergei von Zarovich. In its original form, it had a platinum hilt and guard, and a thin crystal blade as strong as steel.</p><p>Strahd employed a powerful wizard named Khazan to destroy the weapon after Sergei's death. The first part of the process required the hilt and the blade to be separated, which Khazan accomplished. While Khazan was busying himself destroying the blade, his apprentice stole the hilt and fled. Khazan later located his apprentice's mutilated corpse in the Svalich Woods, but the hilt was nowhere to be found. To avoid the vampire's wrath, Khazan told Strahd that the entire weapon had been destroyed.</p><p>The hilt, which is sentient, knows that it can never be reunited with its original crystal blade. It has, however, gained the properties of a @item[sun blade]:</p><ul class=\"rd__list\"><li class=\"rd__li \">You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra [[/r 1d8]] radiant damage.</li><li class=\"rd__li \">The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</li></ul><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"9\"> <span class=\"entry-title-inner\">Sentience.</span></span> <p>The <i>Sunsword</i> is a sentient chaotic good weapon with an Intelligence of 11, a Wisdom of 17, and a Charisma of 16. It has hearing and normal vision out to a range of 60 feet. The weapon communicates by transmitting emotions to the creature carrying it or wielding it.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"10\"> <span class=\"entry-title-inner\">Personality.</span></span> <p>The <i>Sunsword</i>'s special purpose is to destroy Strahd, not so much because it wants to free the land of Barovia from evil but because it wants revenge for the loss of its crystal blade. The weapon secretly fears its own destruction.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "CoS",
-        "quantity": 1,
-        "weight": 3,
-        "price": null,
-        "attunement": 2,
-        "equipped": true,
-        "rarity": "legendary",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": "+2",
-        "chatFlavor": "",
-        "critical": {
-          "threshold": null,
-          "damage": ""
-        },
-        "damage": {
-          "parts": [
-            [
-              "2d6r<3+2+@mod",
-              "radiant"
-            ]
-          ],
-          "versatile": "2d6r<3+1d8r<3+2+@mod"
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": 0,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "baseItem": "greatsword",
-        "properties": {
-          "fin": true,
-          "ver": false,
-          "mgc": true,
-          "ada": false,
-          "amm": false,
-          "fir": false,
-          "foc": false,
-          "hvy": true,
-          "lgt": false,
-          "lod": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "sil": false,
-          "spc": false,
-          "thr": false,
-          "two": true
-        },
-        "proficient": true,
-        "attuned": true,
-        "speed": {
-          "value": null,
-          "conditions": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "permission": {
-        "default": 0,
-        "qKKP9Oqwtml5x0ZQ": 3
-      },
-      "flags": {
-        "srd5e": {
-          "page": "items.html",
-          "source": "CoS",
-          "hash": "sunsword_cos"
-        },
-        "midi-qol": {
-          "effectActivation": false
-        },
-        "midiProperties": {
-          "nodam": false,
-          "halfdam": false,
-          "fulldam": false,
-          "rollOther": false,
-          "critOther": false,
-          "concentration": false
-        }
-      }
-    },
-    {
       "_id": "ENmG5GdjP3b89W4Q",
       "name": "Aura of Protection",
       "type": "feat",
@@ -7913,6 +7395,356 @@
         "jJlN84NZ0wPCNPrN": 3
       },
       "flags": {}
+    },
+    {
+      "_id": "1HJY843zqqL9Hrx4",
+      "name": "Sunsword",
+      "type": "weapon",
+      "img": "https://5etools-mirror-1.github.io/img/items/CoS/Sunsword.png",
+      "data": {
+        "description": {
+          "value": "\n\t\t<div class=\"rd__b  rd__b--2\"><p>The <i>Sunsword</i> is a unique blade once possessed by Strahd's brother, Sergei von Zarovich. In its original form, it had a platinum hilt and guard, and a thin crystal blade as strong as steel.</p><p>Strahd employed a powerful wizard named Khazan to destroy the weapon after Sergei's death. The first part of the process required the hilt and the blade to be separated, which Khazan accomplished. While Khazan was busying himself destroying the blade, his apprentice stole the hilt and fled. Khazan later located his apprentice's mutilated corpse in the Svalich Woods, but the hilt was nowhere to be found. To avoid the vampire's wrath, Khazan told Strahd that the entire weapon had been destroyed.</p><p>The hilt, which is sentient, knows that it can never be reunited with its original crystal blade. It has, however, gained the properties of a @item[sun blade]:</p><ul class=\"rd__list\"><li class=\"rd__li \">You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra [[/r 1d8]] radiant damage.</li><li class=\"rd__li \">The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</li></ul><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Sentience.</span></span> <p>The <i>Sunsword</i> is a sentient chaotic good weapon with an Intelligence of 11, a Wisdom of 17, and a Charisma of 16. It has hearing and normal vision out to a range of 60 feet. The weapon communicates by transmitting emotions to the creature carrying it or wielding it.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Personality.</span></span> <p>The <i>Sunsword</i>'s special purpose is to destroy Strahd, not so much because it wants to free the land of Barovia from evil but because it wants revenge for the loss of its crystal blade. The weapon secretly fears its own destruction.</p><div class=\"rd__spc-inline-post\"></div></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "CoS",
+        "quantity": 1,
+        "weight": 3,
+        "price": null,
+        "attunement": 2,
+        "equipped": true,
+        "rarity": "legendary",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 0,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "2",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8+2+@mod",
+              "radiant"
+            ],
+            [
+              "1d8",
+              "radiant"
+            ]
+          ],
+          "versatile": "1d10+2+@mod"
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": 0,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "baseItem": "longsword",
+        "properties": {
+          "fin": true,
+          "ver": true,
+          "mgc": true,
+          "ada": false,
+          "amm": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false
+        },
+        "proficient": true,
+        "attuned": true,
+        "speed": {
+          "value": null,
+          "conditions": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "jJlN84NZ0wPCNPrN": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "items.html",
+          "source": "CoS",
+          "hash": "sunsword_cos"
+        },
+        "midi-qol": {
+          "effectActivation": false
+        },
+        "midiProperties": {
+          "nodam": false,
+          "halfdam": false,
+          "fulldam": false,
+          "rollOther": false,
+          "critOther": false,
+          "concentration": false
+        }
+      }
+    },
+    {
+      "_id": "fMGAVKp7n7qgsxwM",
+      "name": "Shield Master",
+      "type": "feat",
+      "img": "modules/plutonium/media/icon/feat/phb-shield-master.webp",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a @item[shield|phb]:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">If you take the @action[Attack] action on your turn, you can use a bonus action to try to @action[shove] a creature within 5 feet of you with your shield.</li><li class=\"rd__li \">If you aren't @condition[incapacitated], you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.</li><li class=\"rd__li \">If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.</li></ul></div>\n\t\t\t</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 0,
+          "long": 0,
+          "units": null
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": 0,
+          "charged": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "permission": {
+        "default": 0,
+        "jJlN84NZ0wPCNPrN": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "feats.html",
+          "source": "PHB",
+          "hash": "shield%20master_phb"
+        }
+      }
+    },
+    {
+      "_id": "dCfxXqKYITpSdEo0",
+      "name": "Dueling",
+      "type": "feat",
+      "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+      "data": {
+        "description": {
+          "value": "<div>\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><div class=\"rd__spc-inline-post\"></div></div>\n\t\t\t</div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        }
+      },
+      "effects": [
+        {
+          "_id": "B5KM6oYsKC7vRMgG",
+          "flags": {},
+          "changes": [
+            {
+              "key": "data.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+2"
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 1620159578982
+          },
+          "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+          "label": "Fighting Style: Dueling",
+          "origin": "Item.UOgk9fNed1qugAqH",
+          "tint": null,
+          "transfer": true
+        }
+      ],
+      "folder": null,
+      "sort": -200000,
+      "permission": {
+        "default": 0,
+        "jJlN84NZ0wPCNPrN": 3
+      },
+      "flags": {
+        "srd5e": {
+          "page": "optionalfeatures.html",
+          "source": "PHB",
+          "hash": "dueling_phb"
+        }
+      }
     }
   ],
   "effects": [
@@ -7977,7 +7809,7 @@
         {
           "key": "data.bonuses.weapon.damage",
           "mode": 2,
-          "value": "1d6r<3[cold]",
+          "value": "1d6[cold]",
           "priority": "20"
         },
         {
@@ -7994,7 +7826,7 @@
       "icon": "modules/plutonium/media/icon/spell/xge-ice-knife.webp",
       "label": "Channel Divinity: Frost's Bite",
       "origin": "Actor.iLk5dCor6mFOLWmB.Item.L2ciZN5KPQVSe8UH",
-      "tint": null,
+      "tint": "",
       "transfer": false,
       "flags": {
         "core": {
@@ -8006,7 +7838,41 @@
           "specialDuration": [],
           "transfer": true
         }
-      }
+      },
+      "selectedKey": [
+        "data.bonuses.weapon.damage",
+        "macro.tokenMagic"
+      ]
+    },
+    {
+      "_id": "rHKcQqBm0AiecaJZ",
+      "changes": [
+        {
+          "key": "data.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "2",
+          "priority": "20"
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 1640995518
+      },
+      "icon": "icons/skills/melee/hand-grip-sword-orange.webp",
+      "label": "Fighting Style: Dueling",
+      "origin": "Actor.iLk5dCor6mFOLWmB.Item.dCfxXqKYITpSdEo0",
+      "tint": "",
+      "transfer": false,
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      },
+      "selectedKey": "data.bonuses.mwak.damage"
     }
   ],
   "flags": {
